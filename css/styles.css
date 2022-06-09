@@ -1,1 +1,14 @@
-body{background-color:White}/*# sourceMappingURL=styles.css.map */
+body{
+    background-color: white;
+}
+
+#header-top{
+    text-align: center;
+    color: white;
+    height: 5.5vh;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+}
