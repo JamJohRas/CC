@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html lang="da">
 
 <head>
@@ -25,11 +26,12 @@
 </div>
 <!-- /Header -->
 <a href="index.html" style="text-decoration: black;">
-<img class="logo" src="images/CCBrown.webp" style="border-radius: 10%; z-index: 10; position: absolute; padding: 0.5rem; padding-top: 10vh; background-color: white; margin-left: 2vh; margin-top: -30px;  outline-style: auto; outline-width: 10px; box-shadow: black;">
+<img class="logo d-md-none d-lg-block d-sm-none" src="images/CCBrown.webp" style="border-radius: 10%; z-index: 10; position: absolute; padding: 0.5rem; padding-top: 10vh; background-color: white; margin-left: 2vh; margin-top: -30px;  outline-style: auto; outline-width: 10px; box-shadow: black;">
 </a>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 5; width: 100%; background-color: rgba(1, 1, 1 ,1);">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img id="logo" alt="Chocolate Club Logo" src="images/CCBrown.webp" style="height: 8vh; width: 20vh; opacity: 0;"></a>
+
+        <a class="navbar-brand" href="index.html"><img class="d-sm-block" id="logo" alt="Chocolate Club Logo" src="images/CCBrown.webp" style="height: 8vh; width: 9vh;margin-right: 10vh"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +48,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Om%20Os.html" style="font-size: 25px;">Om os</a>
+                    <a class="nav-link" href="om_os.html" style="font-size: 25px;">Om os</a>
                 </li>
             </ul>
             <form class="d-flex">
@@ -56,7 +58,6 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid bg-fillColor" style="height: 10px; margin-top: -11.5vh; position: absolute; z-index: 5 "></div>
 <!-- /menubar -->
 
 
@@ -69,7 +70,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/TilDenSødeTand.webp" style ="height:65vh;" class="d-block w-100" alt="...">
+            <img src="images/TilDenSødeTand.webp" style ="height:65.7vh; margin-top: -5px;" class="d-block w-100" alt="...">
             <div class="carousel-caption d-md-block" style="background-color:rgba(72, 59, 6, 0.5); right: 30%; left: 30%">
                 <h2 style="text-shadow: 5px 5px rgba(0, 0, 0, 0.1);">Til den søde tand!</h2>
                 <h5>Vi har chokolade til enhver smag, check vores chokolade ud</h5>
@@ -134,10 +135,10 @@
         <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-            <button style="width: 30%; min-width: 20%; height: 10%;">View more</button>
+            <button style="width: 30%; min-width: 20%; height: 10%; max-height: 20%; min-height: 4vh">View more</button>
         </div>
         <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto my-2" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
         </div>
     </div>
@@ -168,7 +169,7 @@
 
 <!-- footer -->
 <div class="bg-thirdColor container-fluid">
-    <div class="row container-fluid justify-content-evenly gap-1">
+    <div class="row container-fluid justify-content-evenly gap-1 flex-wrap">
         <div style="max-height:100%;min-height:20%; color:#fff; font-size: 3vh; margin-top: 2vh"  class="col-3">
             <a>FAQ</a>
             <br>
@@ -177,24 +178,26 @@
             <a>Privacy notice</a>
         </div>
 
-        <div class="col-4 bg-thirdColor">
-            <img src="images/SweetMem.png" style ="height:auto; max-height: 75%; padding-top: 20px;margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" class="d-block" alt="...">
-        </div>
-
-        <div class="col-3 text-end" style="margin-top: 2%;">
+        <div class="col-3 text-center" style="margin-top: 2%;">
 
             <a id="fb" href="https://www.facebook.com/Chocolate-Club"><img src="images/FB1.webp" alt="Facebook Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
             <a href="https://www.instagram.com/Chocolate_Club"><img src="images/IG1.webp" alt="Instagram Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
             <a href="404.html"><img src="images/TW1.webp" alt="Twitter Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
             <a href="404.html"><img src="images/TT1.webp" alt="Tik Tok Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
         </div>
+
+        <div class="col-md-12 col-xl-3 bg-thirdColor text-end">
+            <img src="images/SweetMem.png" style ="height:auto; max-height: 75%; padding-top: 20px;" class="text-end" alt="...">
+        </div>
+
+
     </div>
 </div>
 <!-- /footer -->
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
- </div>
+</div>
 
 </body>
 </html>
