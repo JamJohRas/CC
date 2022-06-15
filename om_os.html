@@ -24,29 +24,31 @@
 </div id="header-top" class="container-fluid bg-primary">
 </div>
 <!-- /Header -->
+<!-- menubar -->
 <a href="index.html" style="text-decoration: black;">
-  <img class="logo" src="images/CCBrown.webp" style="border-radius: 10%; z-index: 10; position: absolute; padding: 0.5rem; padding-top: 10vh; background-color: white; margin-left: 2vh; margin-top: -30px;  outline-style: auto; outline-width: 10px; box-shadow: black;">
+  <img class="logo d-md-none d-lg-block d-sm-none" src="images/CCBrown.webp" style="border-radius: 10%; z-index: 10; position: absolute; padding: 0.5rem; padding-top: 10vh; background-color: white; margin-left: 2vh; margin-top: -30px;  outline-style: auto; outline-width: 10px; box-shadow: black;">
 </a>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: absolute; z-index: 5; width: 100%; background-color: rgba(1, 1, 1 ,1);">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 5; width: 100%; background-color: rgba(1, 1, 1 ,1);">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img id="logo" alt="Chocolate Club Logo" src="images/CCBrown.webp" style="height: 8vh; width: 20vh; opacity: 0;"></a>
+
+    <a class="navbar-brand" href="index.html"><img class="d-sm-block" id="logo" alt="Chocolate Club Logo" src="images/CCBrown.webp" style="height: 8vh; width: 9vh;margin-right: 10vh"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" style="z-index: 10000;">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 25px;">
             Vores Chokolade
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
             <li><a class="dropdown-item dd-a" href="#">Det Sjove Chokolade</a></li>
             <li><a class="dropdown-item dd-a" href="#">Deluxe Chokolade</a></li>
             <li><a class="dropdown-item dd-a" href="#">Event Chokolade</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="font-size: 25px;">Om os</a>
+          <a class="nav-link" href="om_os.html" style="font-size: 25px;">Om os</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -56,7 +58,6 @@
     </div>
   </div>
 </nav>
-<div class="container-fluid bg-fillColor" style="height: 10px; margin-top: h; position: absolute; z-index: 5 "></div>
 <!-- /menubar -->
 
 
@@ -120,6 +121,8 @@
   <button type="submit" class="btn btn-primary" style="margin-left: 25%">Send!</button>
 </form>
 </div>
+
+<br><br><br><br>
 <!-- 4 felter -->
 <!-- <div class="container-fluid">
     <div class="row justify-content-evenly gy-4">
@@ -140,9 +143,10 @@
 <br><br><br><br>
 <!-- 4 felter -->
 
+
 <!-- footer -->
-<div class="bg-thirdColor container-fluid" style="margin-top: 5%; position: absolute">
-  <div class="row container-fluid justify-content-evenly gap-1">
+<div class="bg-thirdColor container-fluid">
+  <div class="row container-fluid justify-content-evenly gap-1 flex-wrap">
     <div style="max-height:100%;min-height:20%; color:#fff; font-size: 3vh; margin-top: 2vh"  class="col-3">
       <a>FAQ</a>
       <br>
@@ -151,20 +155,23 @@
       <a>Privacy notice</a>
     </div>
 
-    <div class="col-4 bg-thirdColor">
-      <img src="images/SweetMem.png" style ="height:auto; max-height: 75%; padding-top: 20px;margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" class="d-block" alt="...">
-    </div>
-
-    <div class="col-3 text-end" style="margin-top: 2%;">
+    <div class="col-3 text-center" style="margin-top: 2%;">
 
       <a id="fb" href="https://www.facebook.com/Chocolate-Club"><img src="images/FB1.webp" alt="Facebook Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
       <a href="https://www.instagram.com/Chocolate_Club"><img src="images/IG1.webp" alt="Instagram Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
       <a href="404.html"><img src="images/TW1.webp" alt="Twitter Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
       <a href="404.html"><img src="images/TT1.webp" alt="Tik Tok Logo" style="max-height: 40px; min-height: 10px; margin-top: 2vh"></a>
     </div>
+
+    <div class="col-md-12 col-xl-3 bg-thirdColor text-md-center text-xl-end">
+      <img src="images/SweetMem.png" style ="height:auto; max-height: 75%; padding-top: 20px;" class="text-end" alt="...">
+    </div>
+
+
   </div>
 </div>
 <!-- /footer -->
+
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
