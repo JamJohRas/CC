@@ -3,9 +3,9 @@
 @import "../node_modules/bootstrap/scss/mixins";
 
 $custom-colors: (
-        "primary": #62916D,
-        "fillColor": #CBBB9F,
-        "thirdColor": #483B06,
+        "primary": #E5670A,
+        "fillColor": #F9DE71,
+        "thirdColor": #6A2800,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
