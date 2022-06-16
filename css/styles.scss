@@ -80,7 +80,19 @@ a, a:hover, a:focus, a:active {
 }
 
 .reveal.active{
-  transform: translateY(1);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.revealing{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.revealing.active{
+  transform: translateY(0);
   opacity: 1;
 }
 
