@@ -54,7 +54,6 @@ a, a:hover, a:focus, a:active {
 }
 
 #button{
-  background-image: url("../images/Brunch.png");
   transition: transform 250ms, box-shadow 250ms;
 }
 
@@ -73,5 +72,16 @@ a, a:hover, a:focus, a:active {
   box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(1);
+  opacity: 1;
+}
 
 
